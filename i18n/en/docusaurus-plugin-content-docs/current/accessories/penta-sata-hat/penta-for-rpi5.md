@@ -6,6 +6,14 @@ sidebar_position: 2
 
 The Raspberry Pi 5 has a PCIe port that works well with the Radxa Penta SATA HAT.
 
+:::info
+Do not use DC power and Type-C to power the Penta SATA HAT and Raspberry Pi 5 at the same time.
+
+Generally speaking, the power consumption of 2.5-inch hard drives is about 5W, if you use 2 or more hard drives, consider using DC power from Penta.
+
+If you choose DC power supply, use a power supply with a voltage of 12V and a current of 4A or above. The DC seat size is 5525.
+:::
+
 ## Assemble
 
 Please assemble in the order shown in the picture below.
